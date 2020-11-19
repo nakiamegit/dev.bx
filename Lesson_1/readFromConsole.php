@@ -1,5 +1,5 @@
 <?php
-function ReadFromConsole() {
+function readFromConsole() {
 	$data = trim(fgets(STDIN));
 	if(is_numeric($data)){
 		$data = +$data;
