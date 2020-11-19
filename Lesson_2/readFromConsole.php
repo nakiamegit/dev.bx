@@ -1,5 +1,5 @@
 <?php
-require_once 'l2_functionTest.php';
+require_once 'testForRFC.php';
 function readFromConsole(string $data, $input)
 {
 	echo $data . ': ';
@@ -16,4 +16,4 @@ function readFromConsole(string $data, $input)
 	}
 	return $input;
 }
-TDD();
+testForRFC();

@@ -8,8 +8,7 @@
 	* readFromConsole('', '1.3') - 1.3;
 	* readFromConsole('', '1') - 1;
 */
-function TDD() {
-
+function testForRFC() {
 	$result = readFromConsole('readFromConsole(true)', 'true');
 	echo var_export($result) . ($result === true ? ' - passed' : ' - failed') . PHP_EOL;
 
