@@ -85,10 +85,6 @@ class DirectoryStatus implements ITestable
 		}
 	}
 
-	public function getTestCount()
-	{
-		return 1 . PHP_EOL;
-	}
 		public function runTest()
 	{
 		$nameDirectory = $this->nameDirectory;
