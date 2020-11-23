@@ -1,0 +1,98 @@
+.header, .videoContent {
+	max-width: 1440px;
+}
+/*
+				******* Оформление верхнего блока *******
+*/
+.headerTitle, .headerContent, .headerLogo {
+	max-width: 540px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header h1, .header p {
+	font-family: Helvetica Neue;
+	text-align: center;
+	color: #000000;
+}
+
+.header h1 {
+	font-size: 46px;
+	line-height: 48px;
+}
+.header p {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.headerLogo img {
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+/*
+				******* Оформление первой статьи страницы *******
+*/
+
+.videoTitle {
+	float: left;
+	width: 50%;
+	max-width: 445px;
+	margin: 0 5% 0;
+}
+
+.videoTitle h2 {
+	font-size: 48px;
+	line-height: 60px;
+}
+
+.videoTitle a {
+	text-decoration: none;
+}
+
+.video {
+	float: right;
+	width: 50%;
+	max-width: 445px;
+
+}
+
+.video img {
+	width: 80%;
+	height: 80%;
+	margin: 5%;
+
+	background: burlywood;
+}
+
+/*
+				******* Оформление второй статьи страницы *******
+*/
+.textContent {
+	 content: "";
+	 display: table;
+	 clear: both;
+
+	margin: 0 5% 0;
+	margin-bottom: 100px;
+ }
+
+.textContent h2 {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.textContent h6 {
+	font-size: 18px;
+	line-height: 0;
+}
+
+.textContent a {
+	text-decoration: none;
+}
+
+.textContent p {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+}
