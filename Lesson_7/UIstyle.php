@@ -9,17 +9,14 @@
 <body>
 <div class="wrapper">
 
-
-
-
-
-
 	<main class="main-content">
-
 		<div class="UI_style">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col">
+					<div class="UI_column_style">
+
+					</div>
+					<div class="col-2 myPadding">
 						<div class="UI_style_name_d">
 							<span>Default</span>
 						</div>
@@ -43,17 +40,16 @@
 						</div>
 						<div class="UI_rect_d">
 							<div class="row">
-								<div class="col-2">
+								<div class="col-6">
 									<img src="./css/Rectangle-1.png" alt="">
 								</div>
-								<div class="col-10 text-center justify-content-center align-self-center">
+								<div class="col-6 text-center justify-content-center align-self-center">
 									<span >#F2F2F2</span>
 								</div>
 							</div>
 						</div>
 					</div>
-
-					<div class="col">
+					<div class="col-2 myPadding">
 						<div class="UI_style_name_h">
 							<span>Hover</span>
 						</div>
@@ -77,17 +73,16 @@
 						</div>
 						<div class="UI_rect_h">
 							<div class="row">
-								<div class="col-2">
+								<div class="col-6">
 									<img src="./css/Rectangle-2.png" alt="">
 								</div>
-								<div class="col-10 text-center justify-content-center align-self-center">
+								<div class="col-6 text-center justify-content-center align-self-center">
 									<span >#F2F2F2</span>
 								</div>
 							</div>
 						</div>
 					</div>
-
-					<div class="col">
+					<div class="col-2 myPadding">
 						<div class="UI_style_name_a">
 							<span>Acctve</span>
 						</div>
@@ -111,27 +106,36 @@
 						</div>
 						<div class="UI_rect_a">
 							<div class="row">
-								<div class="col-2">
+								<div class="col-6">
 									<img src="./css/Rectangle-3.png" alt="">
 								</div>
-								<div class="col-10 text-center justify-content-center align-self-center">
+								<div class="col-6 text-center justify-content-center align-self-center">
 									<span >#F2F2F2</span>
 								</div>
 							</div>
 						</div>
 					</div>
-
-					<div class="col"></div>
 					<div class="col-2"></div>
-				</div>
+					<div class="col-4">
+						<div class="UI_Left_Title">
+							<h1>Value Proposition</h1>
+							<h2>Your Best Value Proposition</h2>
+							<h3>Feature that is amazing</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div class="UI_From">
+							<form>
+								<div class="form-group">
+									<input type="email" class="form-control" aria-describedby="emailHelp" placeholder="email">
+								</div>
 
+							</form>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-
 	</main>
-
-
-
 
 	<footer class="container-fluid text-center">
 		<div class="row">
@@ -177,8 +181,8 @@
 	</footer>
 </div> <!--end wrap-->
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="./lib/bootstrap-4.5.3/js/jquery-3.2.1.slim.min.js"></script>
+<script src="./lib/bootstrap-4.5.3/js/popper.min.js"></script>
 <script src="lib/bootstrap-4.5.3/js/bootstrap.min.js"></script>
 
 </body>

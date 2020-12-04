@@ -293,11 +293,10 @@ footer {
 	font-style: normal;
 	padding-top: 15px;
 	padding-left: 50px;
-	padding-right: 50px;
 	padding-bottom: 250px;
 }
-.UI_style .col div{
-	padding-top: 30px;
+.myPadding div{
+	padding-top: 20px;
 }
 /*!**** UI-стили (1 столбец)***!*/
 .UI_color_text_link_d a{
@@ -317,24 +316,26 @@ footer {
 .UI_y_button_min_d button {
 	background: #F2C94C;
 	border-radius: 5px;
-	width: 185px;
+	max-width: 185px;
 }
 .UI_y_button_max_d button {
 	background: #F2C94C;
 	border-radius: 5px;
-	width: 280px;
+	max-width: 280px;
+	min-width: 100%;
 }
 .UI_b_button_min_d button {
 	background: #000000;
 	border-radius: 5px;
 	color: #fff;
-	width: 185px;
+	max-width: 185px;
 }
 .UI_b_button_max_d button {
 	background: #000000;
 	border-radius: 5px;
 	color: #fff;
-	width: 280px;
+	max-width: 280px;
+	min-width: 100%;
 }
 .UI_style_name_d span {
 	font-family: Roboto;
@@ -342,8 +343,6 @@ footer {
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 21px;
-	align-items: center;
-	text-align: center;
 	color: #333333;
 }
 .UI_rect_d .col span {
@@ -368,24 +367,26 @@ footer {
 .UI_y_button_min_h button {
 	background: #FEDE7D;
 	border-radius: 5px;
-	width: 185px;
+	max-width: 185px;
 }
 .UI_y_button_max_h button {
 	background: #FEDE7D;
 	border-radius: 5px;
-	width: 280px;
+	max-width: 280px;
+	min-width: 100%;
 }
 .UI_b_button_min_h button {
 	background: #363636;
 	border-radius: 5px;
 	color: #fff;
-	width: 185px;
+	max-width: 185px;
 }
 .UI_b_button_max_h button {
 	background: #363636;
 	border-radius: 5px;
 	color: #fff;
-	width: 280px;
+	max-width: 280px;
+	min-width: 100%;
 }
 .UI_style_name_h span {
 	font-family: Roboto;
@@ -415,24 +416,26 @@ footer {
 .UI_y_button_min_a button {
 	background: #F9C21C;
 	border-radius: 5px;
-	width: 185px;
+	max-width: 185px;
 }
 .UI_y_button_max_a button {
 	background: #F9C21C;
 	border-radius: 5px;
-	width: 280px;
+	max-width: 280px;
+	min-width: 100%;
 }
 .UI_b_button_min_a button {
 	background: #000000;
 	border-radius: 5px;
 	color: #fff;
-	width: 185px;
+	max-width: 185px;
 }
 .UI_b_button_max_a button {
 	background: #000000;
 	border-radius: 5px;
 	color: #fff;
-	width: 280px;
+	max-width: 280px;
+	min-width: 100%;
 }
 .UI_style_name_a span {
 	font-family: Roboto;
