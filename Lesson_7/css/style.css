@@ -1,0 +1,290 @@
+/*!****************************** Header ******************************!*/
+header {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 18px 0;
+}
+.header-center .logo {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #F2C94C;
+}
+.nav-link {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	align-items: center;
+	color: #FFFFFF;
+}
+.header-left li{
+	padding-left: 25px;
+}
+.header-right .btn {
+	background: #F2C94C;
+	border-radius: 5px;
+	padding: 12px 0;
+	width: 40%;
+	font-family: Roboto;
+	font-size: 14px;
+	color: #000000;
+}
+/*!****************************** Главный раздел ******************************!*/
+.homepage {
+	background-image: url("../css/main.jpg");
+	background-position: center;
+	/*background-repeat: no-repeat;*/
+	/*background-attachment: fixed;*/
+	background-size: cover;
+	min-height: 695px;
+}
+.overlay {
+	background: rgba(0, 0, 0, 0.46);
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+}
+.description{
+	margin: auto;
+	padding: 2em;
+}
+.description h1{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 52px;
+	color: #FFFFFF;
+	padding-top: 200px;
+	padding-bottom: 25px;
+}
+.description p{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	color: #FFFFFF;
+	max-width: 400px;
+	margin: 0 34%;
+}
+.description button{
+	background: #F2C94C;
+	color:#000;
+	border-radius: 5px;
+	max-width: 280px;
+	margin-top: 25px;
+}
+.description .btn {
+	background: #F2C94C;
+	border-radius: 5px;
+	padding: 12px 0;
+	width: 40%;
+	font-family: Roboto;
+	font-size: 14px;
+	color: #000000;
+}
+/*!****************************** Список товаров ******************************!*/
+.postSquare {
+	position: relative;
+	background-color: #fff;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.postSquare-Title {
+	padding-top: 50px;
+}
+.postSquare-Title p {
+	padding: 15px 25%;
+	font-size: 18px;
+	line-height: 27px;
+}
+.postSquare-Title h1 {
+	font-size: 32px;
+	line-height: 28px;
+}
+.postSquare-Card {
+	padding: 15px 15%;
+}
+.card {
+	margin: 1% 1%;
+}
+.card-link {
+	font-size: 14px;
+	line-height: 19px;
+	text-decoration-line: underline;
+
+	color: #000000;
+}
+/*!****************************** Описание товара ******************************!*/
+.featureList {
+	position: relative;
+	padding: 120px 0;
+	background-color: #fff;
+	font-family: Roboto;
+	font-style: normal;
+	color: #000000;
+}
+.featureList-Title {
+	padding-left: 40%;
+}
+.featureList-Title h2 {
+	font-weight: bold;
+	font-size: 20px;
+	padding: 20px 0;
+}
+.featureList-Title p {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+}
+.featureList-Logo img {
+	max-height: 260px;
+	padding-right: 25%;
+}
+/*!****************************** Соц.сети ******************************!*/
+.socialProof {
+	background: #F2C94C;
+	padding: 25px 0;
+}
+.socialProof-Title {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 34px;
+	color: #000000;
+}
+.socialProof-Logo {
+	padding: 0 30%;
+}
+.socialProof-Logo img{
+	max-width: 60px;
+	max-height: 60px;
+}
+/*!****************************** Footer ******************************!*/
+footer {
+	background: #333333;
+	padding: 50px 0;
+}
+.footer-logo {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #F2C94C;
+	padding-top: 10%;
+}
+.footer-date, .footer-privacy {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+	padding-top: 10px;
+}
+
+.footer-link {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+/*!****************************** Авторизация ******************************!*/
+.login {
+	padding: 15% 0;
+}
+.login_Form {
+	padding: 55px 35%;
+}
+.login_Form button {
+	width: 100%;
+}
+.login_Title h1 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+}
+/*!****************************** Подробная информация о продукте (слайд 1) ******************************!*/
+.detailProduct {
+	position: relative;
+	padding: 120px 0;
+	background-color: #F2F2F2;
+	font-family: Roboto;
+	font-style: normal;
+	color: #000000;
+}
+.detailProduct_Title {
+	padding-left: 25%;
+}
+.detailProduct_Title h2 {
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 140.62%;
+	padding: 20px 0;
+}
+.detailProduct_Title p {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+}
+.detailProduct_Title li {
+	font-size: 20px;
+	line-height: 28px;
+	padding: 10px 0;
+}
+.detailProduct_Title .btn{
+	background: #F2C94C;
+	border-radius: 5px;
+	padding: 12px 0;
+	width: 40%;
+	font-size: 14px;
+	color: #000000;
+	margin: 25px 0;
+}
+.detailProduct_Logo img {
+	padding-right: 0;
+	border-radius: 10px;
+	max-width: 100%;
+}
+/*!****************************** Подробная информация о продукте (слайд 2) ******************************!*/
+.proposition {
+	background-color: #FFFFFF;
+	padding: 8% 15%;
+	font-family: Roboto;
+	font-style: normal;
+	color: #000000;
+}
+.different_th {
+	width: 30%;
+}
+.proposition_Title h2 {
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 140.62%;
+	padding: 2% 0;
+}
+
+.proposition .btn{
+	background: #F2C94C;
+	border-radius: 5px;
+	padding: 12px 0;
+	width: 25%;
+	font-size: 14px;
+	color: #000000;
+	margin: 25px 0;
+}
+/*!****************************** UI-стили ******************************!*/
