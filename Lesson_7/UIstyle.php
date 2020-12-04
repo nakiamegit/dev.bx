@@ -38,9 +38,9 @@
 						<div class="UI_rect_d">
 							<div class="row">
 								<div class="col-6">
-									<img src="./css/Rectangle-1.png" alt="">
+									<img src="./css/Rectangle-1.png">
 								</div>
-								<div class="col-6 text-center justify-content-center align-self-center">
+								<div class="col-6 align-self-center">
 									<span >#F2F2F2</span>
 								</div>
 							</div>
@@ -81,7 +81,7 @@
 					</div>
 					<div class="col-2 myPadding">
 						<div class="UI_style_name_a">
-							<span>Acctve</span>
+							<span>Acctive</span>
 						</div>
 						<div class="UI_color_text_link_a">
 							<a href="">Text link</a>
@@ -120,12 +120,17 @@
 							<h3>Feature that is amazing</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
-						<div class="UI_From">
+						<div class="UI_From float-right">
 							<form>
 								<div class="form-group">
-									<input type="email" class="form-control" aria-describedby="emailHelp" placeholder="email">
+									<input type="email" class="form-control color_blk" aria-describedby="emailHelp" placeholder="email">
 								</div>
-
+								<div class="form-group">
+									<input type="email" class="form-control color_yell" aria-describedby="emailHelp" placeholder="email" value="admin@admin.ad">
+								</div>
+								<div class="form-group">
+									<input type="email" class="form-control color_red" aria-describedby="emailHelp" placeholder="email">
+								</div>
 							</form>
 						</div>
 					</div>
@@ -135,45 +140,43 @@
 	</main>
 
 	<footer class="container-fluid text-center">
-		<div class="row">
-			<div class="col-4">
-				<div class="footer-logo">Trade</div>
-				<div class="footer-date">© 2010 — 2020</div>
-				<div class="footer-privacy">Privacy — Terms</div>
+		<div class="social_drk">
+			<div class="row align-items-start justify-content-start">
+				<div class="col"></div>
+				<div class="col-4">
+					<div class="row">
+						<div class="col"><a href=""><img src="./css/Facebook-drk.png" alt=""></a></div>
+						<div class="col"><a href=""><img src="./css/Twitter-drk.png" alt=""></a></div>
+						<div class="col"><a href=""><img src="./css/VK-drk.png" alt=""></a></div>
+						<div class="col"><a href=""><img src="./css/Instagramm-drk.png" alt=""></a></div>
+						<div class="col"><a href=""><img src="./css/Bitrix24-drk.png" alt=""></a></div>
+						<div class="col"><a href=""><img src="./css/Avito-drk.png" alt=""></a></div>
+					</div>
+				</div>
+				<div class="col-7"></div>
 			</div>
-			<div class="col">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a href="" class="nav-link">Product</a></li>
-					<li class="nav-item"><a href="" class="nav-link footer-link">Product</a></li>
-					<li class="nav-item"><a href="" class="nav-link footer-link">Product</a></li>
-					<li class="nav-item"><a href="" class="nav-link footer-link">Product</a></li>
-				</ul>
+		</div>
+
+		<div class="footer_title_drk">
+			<div class="row">
+				<div class="col">
+					<h6>Small title</h6>
+				</div>
+				<div class="col-10"></div>
 			</div>
-			<div class="col">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a href="" class="nav-link">Features</a></li>
-					<li class="nav-item"><a href="" class="nav-link footer-link">Features</a></li>
-					<li class="nav-item"><a href="" class="nav-link footer-link">Features</a></li>
-					<li class="nav-item"><a href="" class="nav-link footer-link">Features</a></li>
-				</ul>
+		</div>
+
+		<div class="footer_link_drk">
+			<div class="row">
+				<div class="col-4">
+					<ul class="nav">
+						<li class="nav-item"><a href="index.php" class="nav-link">link 1</a></li>
+						<li class="nav-item"><a href="productList.php" class="nav-link">link 2</a></li>
+						<li class="nav-item"><a href="detailProduct.php" class="nav-link">link 3</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="col">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a href="" class="nav-link">Resources</a></li>
-					<li class="nav-item"><a href="" class="nav-link footer-link">Resources</a></li>
-					<li class="nav-item"><a href="" class="nav-link footer-link">Resources</a></li>
-					<li class="nav-item"><a href="" class="nav-link footer-link">Resources</a></li>
-				</ul>
-			</div>
-			<div class="col">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a href="" class="nav-link">Company</a></li>
-					<li class="nav-item"><a href="" class="nav-link footer-link">Company</a></li>
-					<li class="nav-item"><a href="" class="nav-link footer-link">Company</a></li>
-					<li class="nav-item"><a href="" class="nav-link footer-link">Company</a></li>
-				</ul>
-			</div>
-			<div class="col-3"></div>
+			<div class="col-8"></div>
 		</div>
 	</footer>
 </div> <!--end wrap-->

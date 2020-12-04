@@ -447,3 +447,82 @@ footer {
 	text-align: center;
 	color: #333333;
 }
+/*!**** UI-стили (Контент справа)***!*/
+.UI_Left_Title h1 {
+	font-weight: 500;
+	font-size: 52px;
+	line-height: 52px;
+	text-align: right;
+	color: #000000;
+	padding: 10% 0;
+}
+.UI_Left_Title h2 {
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: right;
+	color: #000000;
+}
+.UI_Left_Title h3 {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: right;
+	color: #000000;
+	padding: 10% 0;
+}
+.UI_Left_Title p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	color: #000000;
+}
+.color_blk {
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.color_yell {
+	border: 1px solid #F2C94C;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.color_red {
+	border: 1px solid #EF0000;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.UI_From {
+	padding-top: 10%;
+}
+.UI_rect_d img {
+	max-width: 100%;
+}
+.UI_rect_h img {
+	max-width: 100%;
+}
+.UI_rect_a img {
+	max-width: 100%;
+}
+.social_drk .col{
+	padding: 0;
+}
+.social_drk img {
+	max-width: 75px;
+}
+.footer_title_drk {
+	padding-top: 25px;
+}
+.footer_title_drk h6 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.footer_link_drk {
+	padding-left: 50px;
+}
