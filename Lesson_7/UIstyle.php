@@ -13,9 +13,6 @@
 		<div class="UI_style">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="UI_column_style">
-
-					</div>
 					<div class="col-2 myPadding">
 						<div class="UI_style_name_d">
 							<span>Default</span>
