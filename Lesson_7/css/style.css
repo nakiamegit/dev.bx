@@ -288,3 +288,159 @@ footer {
 	margin: 25px 0;
 }
 /*!****************************** UI-стили ******************************!*/
+.UI_style {
+	font-family: Roboto;
+	font-style: normal;
+	padding-top: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 250px;
+}
+.UI_style .col div{
+	padding-top: 30px;
+}
+/*!**** UI-стили (1 столбец)***!*/
+.UI_color_text_link_d a{
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	text-decoration-line: underline;
+	color: #F2C94C;
+}
+.UI_text_link_d a{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	text-decoration-line: underline;
+	color: #000000;
+}
+.UI_y_button_min_d button {
+	background: #F2C94C;
+	border-radius: 5px;
+	width: 185px;
+}
+.UI_y_button_max_d button {
+	background: #F2C94C;
+	border-radius: 5px;
+	width: 280px;
+}
+.UI_b_button_min_d button {
+	background: #000000;
+	border-radius: 5px;
+	color: #fff;
+	width: 185px;
+}
+.UI_b_button_max_d button {
+	background: #000000;
+	border-radius: 5px;
+	color: #fff;
+	width: 280px;
+}
+.UI_style_name_d span {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	align-items: center;
+	text-align: center;
+	color: #333333;
+}
+.UI_rect_d .col span {
+	font-size: 14px;
+	line-height: 19px;
+}
+/*!**** UI-стили (2 столбец)***!*/
+.UI_color_text_link_h a{
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	text-decoration: none;
+	color: #FEDE7D;
+}
+.UI_text_link_h a{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	text-decoration-line: underline;
+	color: #000000;
+}
+.UI_y_button_min_h button {
+	background: #FEDE7D;
+	border-radius: 5px;
+	width: 185px;
+}
+.UI_y_button_max_h button {
+	background: #FEDE7D;
+	border-radius: 5px;
+	width: 280px;
+}
+.UI_b_button_min_h button {
+	background: #363636;
+	border-radius: 5px;
+	color: #fff;
+	width: 185px;
+}
+.UI_b_button_max_h button {
+	background: #363636;
+	border-radius: 5px;
+	color: #fff;
+	width: 280px;
+}
+.UI_style_name_h span {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	align-items: center;
+	text-align: center;
+	color: #333333;
+}
+/*!**** UI-стили (3 столбец)***!*/
+.UI_color_text_link_a a{
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	text-decoration: none;
+	color: #F9C21C;
+}
+.UI_text_link_a a{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	text-decoration-line: underline;
+	color: #000000;
+}
+.UI_y_button_min_a button {
+	background: #F9C21C;
+	border-radius: 5px;
+	width: 185px;
+}
+.UI_y_button_max_a button {
+	background: #F9C21C;
+	border-radius: 5px;
+	width: 280px;
+}
+.UI_b_button_min_a button {
+	background: #000000;
+	border-radius: 5px;
+	color: #fff;
+	width: 185px;
+}
+.UI_b_button_max_a button {
+	background: #000000;
+	border-radius: 5px;
+	color: #fff;
+	width: 280px;
+}
+.UI_style_name_a span {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	align-items: center;
+	text-align: center;
+	color: #333333;
+}

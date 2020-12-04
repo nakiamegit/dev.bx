@@ -18,35 +18,109 @@
 
 		<div class="UI_style">
 			<div class="container-fluid">
-
 				<div class="row">
 					<div class="col">
-						<div class="UI_style_name_d">Default</div>
-						<div class="UI_color_text_link_d">Text link</div>
-						<div class="UI_text_link_d">Text link</div>
-						<div class="UI_y_button_min_d">Buttons</div>
-						<div class="UI_y_button_max_d">Buttons</div>
-						<div class="UI_b_button_min_d">Buttons</div>
-						<div class="UI_b_button_max_d">Buttons</div>
+						<div class="UI_style_name_d">
+							<span>Default</span>
+						</div>
+						<div class="UI_color_text_link_d">
+							<a href="">Text link</a>
+						</div>
+						<div class="UI_text_link_d">
+							<a href="">Text link</a>
+						</div>
+						<div class="UI_y_button_min_d">
+							<button class="btn">Buttons</button>
+						</div>
+						<div class="UI_y_button_max_d">
+							<button class="btn">Buttons</button>
+						</div>
+						<div class="UI_b_button_min_d">
+							<button class="btn">Buttons</button>
+						</div>
+						<div class="UI_b_button_max_d">
+							<button class="btn">Buttons</button>
+						</div>
+						<div class="UI_rect_d">
+							<div class="row">
+								<div class="col-2">
+									<img src="./css/Rectangle-1.png" alt="">
+								</div>
+								<div class="col-10 text-center justify-content-center align-self-center">
+									<span >#F2F2F2</span>
+								</div>
+							</div>
+						</div>
 					</div>
+
 					<div class="col">
-						<div class="UI_style_name_h">Default</div>
-						<div class="UI_color_text_link_h">Text link</div>
-						<div class="UI_text_link_h">Text link</div>
-						<div class="UI_y_button_min_h">Buttons</div>
-						<div class="UI_y_button_max_h">Buttons</div>
-						<div class="UI_b_button_min_h">Buttons</div>
-						<div class="UI_b_button_max_h">Buttons</div>
+						<div class="UI_style_name_h">
+							<span>Hover</span>
+						</div>
+						<div class="UI_color_text_link_h">
+							<a href="">Text link</a>
+						</div>
+						<div class="UI_text_link_h">
+							<a href="">Text link</a>
+						</div>
+						<div class="UI_y_button_min_h">
+							<button class="btn">Buttons</button>
+						</div>
+						<div class="UI_y_button_max_h">
+							<button class="btn">Buttons</button>
+						</div>
+						<div class="UI_b_button_min_h">
+							<button class="btn">Buttons</button>
+						</div>
+						<div class="UI_b_button_max_h">
+							<button class="btn">Buttons</button>
+						</div>
+						<div class="UI_rect_h">
+							<div class="row">
+								<div class="col-2">
+									<img src="./css/Rectangle-2.png" alt="">
+								</div>
+								<div class="col-10 text-center justify-content-center align-self-center">
+									<span >#F2F2F2</span>
+								</div>
+							</div>
+						</div>
 					</div>
+
 					<div class="col">
-						<div class="UI_style_name_a">Default</div>
-						<div class="UI_color_text_link_a">Text link</div>
-						<div class="UI_text_link_a">Text link</div>
-						<div class="UI_y_button_min_a">Buttons</div>
-						<div class="UI_y_button_max_a">Buttons</div>
-						<div class="UI_b_button_min_a">Buttons</div>
-						<div class="UI_b_button_max_a">Buttons</div>
+						<div class="UI_style_name_a">
+							<span>Acctve</span>
+						</div>
+						<div class="UI_color_text_link_a">
+							<a href="">Text link</a>
+						</div>
+						<div class="UI_text_link_a">
+							<a href="">Text link</a>
+						</div>
+						<div class="UI_y_button_min_a">
+							<button class="btn">Buttons</button>
+						</div>
+						<div class="UI_y_button_max_a">
+							<button class="btn">Buttons</button>
+						</div>
+						<div class="UI_b_button_min_a">
+							<button class="btn">Buttons</button>
+						</div>
+						<div class="UI_b_button_max_a">
+							<button class="btn">Buttons</button>
+						</div>
+						<div class="UI_rect_a">
+							<div class="row">
+								<div class="col-2">
+									<img src="./css/Rectangle-3.png" alt="">
+								</div>
+								<div class="col-10 text-center justify-content-center align-self-center">
+									<span >#F2F2F2</span>
+								</div>
+							</div>
+						</div>
 					</div>
+
 					<div class="col"></div>
 					<div class="col-2"></div>
 				</div>
