@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Title</title>
+	<title>TRADE</title>
 	<link rel="stylesheet" href="lib/bootstrap-4.5.3/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
