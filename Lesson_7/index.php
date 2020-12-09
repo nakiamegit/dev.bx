@@ -6,8 +6,8 @@
 		<div class="overlay"></div>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-12">
-					<div class="description text-center">
+				<div class="col-12 align-content-center">
+					<div class="description text-center ">
 						<h1>Value Proposition</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -30,27 +30,33 @@
 			</div>
 			<div class="postSquare-Card">
 				<div class="row">
-						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="./css/moto-card-1.png" alt="Card image cap">
-							<div class="card-body">
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								<a href="#" class="card-link">Learn More</a>
-							</div>
-						</div>
-						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="./css/moto-card-2.png" alt="Card image cap">
-							<div class="card-body">
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								<a href="#" class="card-link">Learn More</a>
-							</div>
-						</div>
-						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="./css/moto-card-3.png" alt="Card image cap">
-							<div class="card-body">
-								<p class="card-text" style="padding-top: 55px">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-								<a href="#" class="card-link">Learn More</a>
-							</div>
-						</div>
+					<div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="./css/moto-card-1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <a href="#" class="card-link">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="./css/moto-card-2.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <a href="#" class="card-link">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="./css/moto-card-3.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text" style="padding-top: 55px">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <a href="#" class="card-link">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
 				</div>
 			</div>
 		</div>

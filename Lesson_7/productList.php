@@ -15,69 +15,87 @@
 				</div>
 				<div class="postSquare-Card">
 					<div class="row">
-						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="./css/moto-card-1.png" alt="Card image cap">
-							<div class="card-body">
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								<a href="#" class="card-link">Learn More</a>
-							</div>
-						</div>
-						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="./css/moto-card-2.png" alt="Card image cap">
-							<div class="card-body">
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								<a href="#" class="card-link">Learn More</a>
-							</div>
-						</div>
-						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="./css/moto-card-3.png" alt="Card image cap">
-							<div class="card-body">
-								<p class="card-text" style="padding-top: 55px">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-								<a href="#" class="card-link">Learn More</a>
-							</div>
-						</div>
-						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="./css/moto-card-1.png" alt="Card image cap">
-							<div class="card-body">
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								<a href="#" class="card-link">Learn More</a>
-							</div>
-						</div>
-						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="./css/moto-card-2.png" alt="Card image cap">
-							<div class="card-body">
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								<a href="#" class="card-link">Learn More</a>
-							</div>
-						</div>
-						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="./css/moto-card-3.png" alt="Card image cap">
-							<div class="card-body">
-								<p class="card-text" style="padding-top: 55px">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-								<a href="#" class="card-link">Learn More</a>
-							</div>
-						</div>
-						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="./css/moto-card-1.png" alt="Card image cap">
-							<div class="card-body">
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								<a href="#" class="card-link">Learn More</a>
-							</div>
-						</div>
-						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="./css/moto-card-2.png" alt="Card image cap">
-							<div class="card-body">
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								<a href="#" class="card-link">Learn More</a>
-							</div>
-						</div>
-						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="./css/moto-card-3.png" alt="Card image cap">
-							<div class="card-body">
-								<p class="card-text" style="padding-top: 55px">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-								<a href="#" class="card-link">Learn More</a>
-							</div>
-						</div>
+						<div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./css/moto-card-1.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <a href="#" class="card-link">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./css/moto-card-2.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <a href="#" class="card-link">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+						<div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./css/moto-card-3.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text" style="padding-top: 55px">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <a href="#" class="card-link">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+						<div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./css/moto-card-1.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <a href="#" class="card-link">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+						<div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./css/moto-card-2.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <a href="#" class="card-link">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+						<div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./css/moto-card-3.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text" style="padding-top: 55px">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <a href="#" class="card-link">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+						<div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./css/moto-card-1.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <a href="#" class="card-link">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+						<div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./css/moto-card-2.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <a href="#" class="card-link">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+						<div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./css/moto-card-3.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text" style="padding-top: 55px">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <a href="#" class="card-link">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
 					</div>
 				</div>
 			</div>

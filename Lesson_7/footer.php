@@ -7,7 +7,7 @@
 			</div>
 			<div class="col">
 				<ul class="navbar-nav">
-					<li class="nav-item"><a href="" class="nav-link">Product</a></li>
+					<li class="nav-item"><a href="" class="nav-link footer-bold">Product</a></li>
 					<li class="nav-item"><a href="" class="nav-link footer-link">Product</a></li>
 					<li class="nav-item"><a href="" class="nav-link footer-link">Product</a></li>
 					<li class="nav-item"><a href="" class="nav-link footer-link">Product</a></li>
@@ -15,7 +15,7 @@
 			</div>
 			<div class="col">
 				<ul class="navbar-nav">
-					<li class="nav-item"><a href="" class="nav-link">Features</a></li>
+					<li class="nav-item"><a href="" class="nav-link footer-bold">Features</a></li>
 					<li class="nav-item"><a href="" class="nav-link footer-link">Features</a></li>
 					<li class="nav-item"><a href="" class="nav-link footer-link">Features</a></li>
 					<li class="nav-item"><a href="" class="nav-link footer-link">Features</a></li>
@@ -23,7 +23,7 @@
 			</div>
 			<div class="col">
 				<ul class="navbar-nav">
-					<li class="nav-item"><a href="" class="nav-link">Resources</a></li>
+					<li class="nav-item"><a href="" class="nav-link footer-bold">Resources</a></li>
 					<li class="nav-item"><a href="" class="nav-link footer-link">Resources</a></li>
 					<li class="nav-item"><a href="" class="nav-link footer-link">Resources</a></li>
 					<li class="nav-item"><a href="" class="nav-link footer-link">Resources</a></li>
@@ -31,7 +31,7 @@
 			</div>
 			<div class="col">
 				<ul class="navbar-nav">
-					<li class="nav-item"><a href="" class="nav-link">Company</a></li>
+					<li class="nav-item"><a href="" class="nav-link footer-bold">Company</a></li>
 					<li class="nav-item"><a href="" class="nav-link footer-link">Company</a></li>
 					<li class="nav-item"><a href="" class="nav-link footer-link">Company</a></li>
 					<li class="nav-item"><a href="" class="nav-link footer-link">Company</a></li>

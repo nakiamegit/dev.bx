@@ -8,6 +8,7 @@ header {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;
+	line-height: 28px;
 	text-transform: uppercase;
 	color: #F2C94C;
 }
@@ -16,6 +17,7 @@ header {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
+	line-height: 21px;
 	align-items: center;
 	color: #FFFFFF;
 }
@@ -28,8 +30,10 @@ header {
 	padding: 12px 0;
 	width: 40%;
 	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
 	font-size: 14px;
-	color: #000000;
+	line-height: 16px
 }
 /*!****************************** Главный раздел ******************************!*/
 .homepage {
@@ -85,7 +89,10 @@ header {
 	padding: 12px 0;
 	width: 40%;
 	font-family: Roboto;
-	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
 	color: #000000;
 }
 /*!****************************** Список товаров ******************************!*/
@@ -99,6 +106,8 @@ header {
 }
 .postSquare-Title {
 	padding-top: 50px;
+	font-size: 24px;
+	line-height: 28px;
 }
 .postSquare-Title p {
 	padding: 15px 25%;
@@ -137,11 +146,12 @@ header {
 .featureList-Title h2 {
 	font-weight: bold;
 	font-size: 20px;
+	line-height: 28px;
 	padding: 20px 0;
 }
 .featureList-Title p {
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 28px;
 }
 .featureList-Logo img {
@@ -157,7 +167,8 @@ header {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	line-height: 34px;
+	font-size: 24px;
+	line-height: 34px
 	color: #000000;
 }
 .socialProof-Logo {
@@ -200,6 +211,15 @@ footer {
 	line-height: 20px;
 	color: #FFFFFF;
 }
+.footer-bold {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+
 /*!****************************** Авторизация ******************************!*/
 .login {
 	padding: 15% 0;
@@ -209,12 +229,18 @@ footer {
 }
 .login_Form button {
 	width: 100%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #FFFFFF;
 }
 .login_Title h1 {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 28px;
 	color: #000000;
 }
@@ -232,16 +258,17 @@ footer {
 }
 .detailProduct_Title h2 {
 	font-weight: bold;
-	font-size: 42px;
+	font-size: 48px;
 	line-height: 140.62%;
 	padding: 20px 0;
 }
 .detailProduct_Title p {
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 28px;
 }
 .detailProduct_Title li {
+	font-weight: normal;
 	font-size: 20px;
 	line-height: 28px;
 	padding: 10px 0;
@@ -251,8 +278,9 @@ footer {
 	border-radius: 5px;
 	padding: 12px 0;
 	width: 40%;
-	font-size: 14px;
 	color: #000000;
+	font-size: 18px;
+	line-height: 21px;
 	margin: 25px 0;
 }
 .detailProduct_Logo img {
@@ -283,7 +311,8 @@ footer {
 	border-radius: 5px;
 	padding: 12px 0;
 	width: 25%;
-	font-size: 14px;
+	font-size: 18px;
+	line-height: 21px;
 	color: #000000;
 	margin: 25px 0;
 }
