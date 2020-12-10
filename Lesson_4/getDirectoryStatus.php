@@ -3,65 +3,32 @@ include 'testDirectoryStatus.php';
 
     function getDirectoryStatus($nameDirectory)
     {
-        $readDirectory = opendir($nameDirectory);
         $fileList = [
-            'nameDirectory' => [],
-            'sizeDirectory' => [],
-            'isReadableDirectory' => [],
-            'isWritableDirectory' => [],
-
-            'nameFile' => [],
-            'sizeFile' => [],
-            'isReadableFile' => [],
-            'isWritableFile' => [],
+            'dirs' => [],
+            'files' => [],
         ];
+        $currentDir = opendir($nameDirectory);
 
-        while ($elements = readdir($readDirectory)) {
-            if (is_file($elements)) {
-                $fileList['nameFile'][] = $elements;
+        while ($element = readdir($currentDir))
+        {
+            if(in_array($element, ['.', '..']))
+                continue;
 
-                $size = filesize($elements);
-                $sizeFile = round($size / 1024, 2);
-                $fileList['sizeFile'][] = $sizeFile;
-
-                (is_readable($elements) ? $fileList['isReadableFile'][] = 'Файл доступен для чтения'
-                    : $fileList['isReadableFile'][] = 'Файл не доступен для чтения');
-                (is_writable($elements) ? $fileList['isWritableFile'][] = 'Файл доступен для записи'
-                    : $fileList['isWritableFile'][] = 'Файл не доступен для записи');
-            } else {
-                $fileList['nameDirectory'][] = $elements;
-
-                (is_readable($elements) ? $fileList['isReadableDirectory'][] = 'Директория доступна для чтения'
-                    : $fileList['isReadableDirectory'][] = 'Директория не доступна для чтения');
-                (is_writable($elements) ? $fileList['isWritableDirectory'][] = 'Директория Доступна для записи'
-                    : $fileList['isWritableDirectory'][] = 'Директория не доступна для записи');
+            if (is_file($element))
+            {
+                    (is_readable($element) ? $fileList['files'][$element]['is_readable'] = 'true' : $fileList['files'][$element]['is_readable'] = 'false');
+                    (is_writable($element) ? $fileList['files'][$element]['is_writable'] = 'true' : $fileList['files'][$element]['is_writable'] = 'false');
+                    $size = filesize($element);
+                    $fileList['files'][$element]['size'] = $size;
+            }
+            elseif(is_dir($element))
+            {
+                (is_readable($element) ? $fileList['dirs'][$element]['is_readable'] = 'true' : $fileList[$element]['is_readable'] = 'false');
+                (is_writable($element) ? $fileList['dirs'][$element]['is_writable'] = 'true' : $fileList[$element]['is_writable'] = 'false');
             }
         }
-        closedir($readDirectory);
-        return $fileList;
+        closedir($currentDir);
+        print_r($fileList);
     }
-
-
-$result = getDirectoryStatus(".");
-    print_r($result);
-
-
-
-
-
-
-
-
-    function runTest()
-	{
-		$nameDirectory = $this->nameDirectory;
-		if($nameDirectory === '.'){
-			echo 'Вы указали текущую директорию!';
-		}elseif ($nameDirectory === '..'){
-			echo 'Вы указали родительскую директорию!';
-		}elseif (file_exists($nameDirectory)){
-			echo 'Директория "' . $nameDirectory . '" существует!';
-		}else {
-			echo 'Директория не существует!';
-		}
-	}
+$result = getDirectoryStatus("./test");
+//$resultTest = testDirectoryStatus("");
