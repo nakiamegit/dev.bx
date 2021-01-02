@@ -49,6 +49,15 @@ class CalculatorTest extends TestCase
         $calculator = new Calculator();
         self::assertEquals(3, $calculator->square(9));
     }
+
+    public function testSquareException(): void
+    {
+        $calculator = new Calculator();
+
+        $this->expectException(\InvalidArgumentException::class);
+        $this->expectExceptionMessage('Cannot root out negative number');
+        $calculator->square(-9);
+    }
 }
 
 

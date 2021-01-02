@@ -35,6 +35,10 @@ class Calculator
 
     public function square(int $a): float
     {
+        if($a < 0)
+        {
+            throw new InvalidArgumentException('Cannot root out negative number');
+        }
         return sqrt($a);
     }
 }
