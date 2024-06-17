@@ -1,0 +1,36 @@
+|------------------------------------------------------------------------------------------|
+|                                      WinMTR statistics                                   |
+|                       Host              -   %  | Sent | Recv | Best | Avrg | Wrst | Last |
+|------------------------------------------------|------|------|------|------|------|------|
+|        prxysvr01.serviciofilipino.local -    2 |  254 |  249 |    2 |   12 |   96 |   10 |
+|                            45.194.12.97 -    2 |  254 |  249 |    0 |   18 |  499 |   25 |
+|te0-14-0-2-1.ccr41.lax04.atlas.cogentco.com -    3 |  250 |  244 |  141 |  176 |  454 |  269 |
+|   be3271.ccr41.lax01.atlas.cogentco.com -    2 |  254 |  249 |  144 |  168 |  804 |  160 |
+|   be2931.ccr31.phx01.atlas.cogentco.com -    5 |  231 |  220 |  153 |  178 |  300 |  271 |
+|   be2979.ccr21.elp02.atlas.cogentco.com -    4 |  242 |  234 |  161 |  184 |  311 |  166 |
+|   be3821.ccr31.dfw01.atlas.cogentco.com -    3 |  250 |  244 |    0 |  212 |  443 |  277 |
+|   be2763.ccr41.dfw03.atlas.cogentco.com -    3 |  250 |  244 |  172 |  194 |  443 |  183 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|                   No response from host -  100 |   55 |    0 |    0 |    0 |    0 |    0 |
+|________________________________________________|______|______|______|______|______|______|
+   WinMTR v0.92 GPL V2 by Appnor MSP - Fully Managed Hosting & Cloud Provider
